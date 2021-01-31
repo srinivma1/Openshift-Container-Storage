@@ -10,3 +10,12 @@ Please go to https://red-hat-storage.github.io/ocs-training now
 
 We welcome any contributions! If you find something that is wrong, either create an issue in Github or (even better) hand in a PR.
 Check out the [Contribution guide](CONTRIBUTING.adoc) for our guidelines.
+
+
+## Support Phase Boundaries
+The OCS Full Support Phase commences at the GA release date of the minor version and ends one calendar month after the GA of the superseding minor OCS release (roughly a four-month period). The one-month overlapping period permits a customer to remain in the full support phase across two minor releases.
+
+Maintenance Support Phase begins a month after the GA/release of the superseding minor version and ends when the 3rd superseding minor version is released.
+
+Extended Update Support will be available for select OpenShift Container Storage releases. These releases will be outlined on this page and as part of release notes. Extended update support will provide maintenance support coverage for a release of OCS for the period in which EUS is available for an OpenShift release.
+
