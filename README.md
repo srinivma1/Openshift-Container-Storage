@@ -19,4 +19,4 @@ Maintenance Support Phase begins a month after the GA/release of the superseding
 
 Extended Update Support will be available for select OpenShift Container Storage releases. These releases will be outlined on this page and as part of release notes. Extended update support will provide maintenance support coverage for a release of OCS for the period in which EUS is available for an OpenShift release.
 
-![OCS_OCP_Compatibility](OCS_OCP_COMPATIBILITY.PNG)
+![OCS_OCP_Compatibility](OCS_OCP_Compatibility.PNG)
