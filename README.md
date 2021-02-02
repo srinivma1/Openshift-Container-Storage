@@ -6,6 +6,11 @@ All activites were developed for OpenShift Container Platform (OCP 4) running on
 
 Please go to https://red-hat-storage.github.io/ocs-training now
 
+Make sure after OCS installation, to mark ocs-storagecluster-cephfs storage class as default by adding the following annotation:
+
+storageclass.kubernetes.io/is-default-class : true
+
+
 ## Contribute content
 
 We welcome any contributions! If you find something that is wrong, either create an issue in Github or (even better) hand in a PR.
