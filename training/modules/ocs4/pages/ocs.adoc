@@ -125,7 +125,7 @@ This step could take more than 5 minutes. The result of this command needs to
 look like below before you proceed. All new workerocs *machinesets* should
 have an integer, in this case `1`, filled out for all rows and under columns
 `READY` and `AVAILABLE`. The `NAME` of your *machinesets* will be different
-than shown below.
+than shown below. 
 
 ----
 NAME                                          DESIRED   CURRENT   READY   AVAILABLE   AGE
@@ -133,6 +133,7 @@ cluster-ocs-0ec4-dgwqc-workerocs-us-east-2a   1         1         1       1     
 cluster-ocs-0ec4-dgwqc-workerocs-us-east-2b   1         1         1       1           8m26s
 cluster-ocs-0ec4-dgwqc-workerocs-us-east-2c   1         1         1       1           8m25s
 ----
+**Note** If the machinesets fails to be in a  ready state, change the ami-id to the working node ami-id by describing the machine set for working node id and fetching the ami-id.
 
 You can exit by pressing kbd:[Ctrl+C].
 
