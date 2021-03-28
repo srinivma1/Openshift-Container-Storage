@@ -133,7 +133,7 @@ cluster-ocs-0ec4-dgwqc-workerocs-us-east-2a   1         1         1       1     
 cluster-ocs-0ec4-dgwqc-workerocs-us-east-2b   1         1         1       1           8m26s
 cluster-ocs-0ec4-dgwqc-workerocs-us-east-2c   1         1         1       1           8m25s
 ----
-**Note** If the machinesets fails to be in a  ready state, change the ami-id to the working node ami-id by describing the machine set for working node id and fetching the ami-id. For ex: ami-0f45466956ab18566
+**Note** If the machinesets fails to be in a  ready state, change the ami-id to the working node ami-id by describing the machine set for working node id and fetching the ami-id. For ex: ami-0f45466956ab18566. We can check the events adn activities under Home -> Overview -> Actvities -> Events
 
 You can exit by pressing kbd:[Ctrl+C].
 
